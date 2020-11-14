@@ -7,7 +7,7 @@
   &__wrap {
     width: 100%;
     min-height: 100vh;
-    padding-top: 10%;
+    padding-top: 15%;
     text-align: center;
 
     position: relative;
@@ -35,22 +35,5 @@
     position: relative;
     margin: 0 auto;
     margin-bottom: 100px;
-  }
-
-  &__blue {
-    @include size(100%, 80px);
-    @include pos($b: 0, $l: 0, $r: 0);
-
-    background-color: var(--blue);
-  }
-
-  &__navigation {
-    @include size(100%, 80px);
-    @include pos($b: 0);
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
   }
 }
