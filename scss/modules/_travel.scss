@@ -1,0 +1,45 @@
+.travel {
+  background: url(../images/travel.jpg) no-repeat center center;
+  background-size: cover;
+
+  &__wrap {
+    padding: 120px 0 195px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  &__block {
+    display: flex;
+  }
+
+  &__img {
+    width: 40%;
+  }
+
+  &__pic {
+    height: 100%;
+  }
+
+  &__text {
+    background: #333333;
+    width: 60%;
+    padding: 45px 45px 45px 55px;
+  }
+
+  &__quote {
+    position: relative;
+  }
+
+  &__icon {
+    @include pos($t: -10px);
+    color: var(--blue);
+    font-size: 20px;
+  }
+
+  &__quote-text {
+    text-indent: 25px;
+  }
+}

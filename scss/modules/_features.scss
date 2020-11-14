@@ -1,0 +1,48 @@
+.features {
+  height: 340px;
+  background: #333333;
+  font-size: 36px;
+  font-family: $font-Aleo;
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    margin: 95px 80px 0;
+    text-align: center;
+    position: relative;
+
+    &--checked {
+      &::before,
+      &::after {
+        @include size(312px, 60px);
+        @include pos($t: -60px);
+
+        background-image: url(../images/dots.png);
+
+        content: "";
+      }
+
+      &::before {
+        right: 115px;
+      }
+
+      &::after {
+        left: 115px;
+      }
+    }
+  }
+
+  &__icon {
+    display: block;
+    font-size: 65px;
+    color: #5474fd;
+    margin-bottom: 30px;
+
+    &--red {
+      color: #ff6363;
+    }
+  }
+}

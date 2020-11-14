@@ -1,0 +1,56 @@
+.header {
+  background: url(../images/header.jpg) no-repeat center center;
+  background-size: cover;
+
+  position: relative;
+
+  &__wrap {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10%;
+    text-align: center;
+
+    position: relative;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 7.5px;
+  }
+
+  &__text {
+    font-size: 22px;
+    letter-spacing: 6.82px;
+    margin-bottom: 50px;
+  }
+
+  &__form {
+    @include size(650px, 60px);
+
+    background-color: #fff;
+    padding: 2px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  &__blue {
+    @include size(100%, 80px);
+    @include pos($b: 0, $l: 0, $r: 0);
+
+    background-color: var(--blue);
+  }
+
+  &__navigation {
+    @include size(100%, 80px);
+    @include pos($b: 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+  }
+}

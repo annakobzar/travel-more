@@ -1,0 +1,46 @@
+.form {
+  &__field {
+    @include size(75%, 56px);
+  }
+
+  &__input {
+    @include size(100%);
+    display: inline-block;
+    text-align: center;
+
+    font: 400 14px $font-Josefin;
+    color: #333333;
+
+    &::placeholder {
+      font: 400 14px $font-Josefin;
+      color: #999999;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+}
+
+.submit {
+  @include size(22.3%, 56px);
+  @include pos($r: 2px, $t: 2px);
+
+  line-height: 56px;
+  background-color: var(--blue);
+  font-size: 14px;
+  font-family: $font-Aleo;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  // padding-top: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #04273b;
+  }
+}

@@ -1,0 +1,25 @@
+.spain2 {
+  background: url(../images/spain-2.jpg) no-repeat center center;
+  background-size: cover;
+
+  &__wrap {
+    padding: 230px 0 100px;
+  }
+
+  &__block {
+    min-height: 370px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 30px;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    color: #e8e8e8;
+    letter-spacing: 2.5px;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    margin-bottom: 45px;
+  }
+}

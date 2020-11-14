@@ -1,0 +1,46 @@
+.scroll {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+
+  &__icon {
+    font-size: 30px;
+  }
+
+  &__text {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+  }
+
+  &:hover {
+    animation: animationFrames linear 1.5s;
+    animation-iteration-count: 1;
+  }
+}
+
+@keyframes animationFrames {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(0px, -25px);
+  }
+  30% {
+    transform: translate(0px, 0px);
+  }
+  45% {
+    transform: translate(0px, -15px);
+  }
+  60% {
+    transform: translate(0px, 0px);
+  }
+  75% {
+    transform: translate(0px, -5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
