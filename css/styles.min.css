@@ -208,7 +208,7 @@ body {
 }
 
 .scroll {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   text-decoration: none;
   color: #fff;
@@ -453,7 +453,7 @@ body {
 .header__wrap {
   width: 100%;
   min-height: 100vh;
-  padding-top: 15%;
+  padding-top: 25vh;
   text-align: center;
   position: relative;
 }
@@ -678,7 +678,7 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  letter-spacing: 6.36px;
+  letter-spacing: 5.5px;
 }
 
 .footer__text {
@@ -688,6 +688,9 @@ body {
 
 .navigation {
   background: var(--blue);
+}
+
+.navigation__wrap {
   height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,7 +1,10 @@
 .navigation {
   background: var(--blue);
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+  &__wrap {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
